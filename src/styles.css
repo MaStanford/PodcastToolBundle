@@ -1,0 +1,15 @@
+.Button{
+    background-color: rgba(169, 169, 169, 0.233);
+    width: fit-content;
+    margin: 10px;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+Body{
+    overflow: hidden; 
+    background-color: rgba(0,0,0,0); 
+    margin: 0;
+}
