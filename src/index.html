@@ -16,20 +16,6 @@
       Show notes write up by punching a new line. also can add offsets to timer and show notes
   
       Each feature can be its own window. 
-      <!-- All of the Node.js APIs are available in this renderer process. -->
-      We are using Node.js <script>document.write(process.versions.node)</script>,
-      Chromium <script>document.write(process.versions.chrome)</script>,
-      and Electron <script>document.write(process.versions.electron)</script>.
-  
-      <div id="new-window" class="Button">Open New Window!</div>
-      <div id="open-ex-links" class="Button">Open External Links!</div>
-      <div id="open-file-manager" class="Button">Open File Manager!</div>
-      <div id="put-in-tray" class="Button">Put In Tray!</div>
-      <div id="tray-countdown" class="Button">Tray Status!</div>
-      <div id="select-directory" class="Button">Select File!</div>
-      <div id="selected-file" class="Button">You Selected!</div>
-      <div id="save-dialog" class="Button">Save File!</div>
-      <div id="file-saved" class="Button">You Selected!</div>
     </div>
 
     
@@ -53,6 +39,7 @@
           module.hot.accept(render);
         }
 
+        //Require is from the Node code that electron runs in, import is the es6 code that react uses.
         require('./renderer.js')
       </script>
   </body>
