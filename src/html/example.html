@@ -3,12 +3,21 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta charset="UTF-8">
-    <title>Podcast Tools</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Test</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div id="App">  
     </div>
+
+    <div id="test">
+      Timer 
+      Podcast keyword lookup
+      Show notes write up by punching a new line. also can add offsets to timer and show notes
+  
+      Each feature can be its own window. 
+    </div>
+
     
     <script>
         // You can also require other files to run in this process
@@ -17,7 +26,7 @@
         import {AppContainer} from 'react-hot-loader';
 
         const render = () => {
-          const App = require('./app').default;
+          const App = require('../components/example').default;
           ReactDOM.render(
             <AppContainer>
               <App/>
@@ -31,7 +40,7 @@
         }
 
         //Require is from the Node code that electron runs in, import is the es6 code that react uses.
-        require('./renderer/renderer.js')
+        require('../renderer/renderer.js')
       </script>
   </body>
 </html>

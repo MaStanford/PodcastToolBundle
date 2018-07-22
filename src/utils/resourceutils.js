@@ -1,14 +1,14 @@
-const path = require('path');
+import path from 'path';
 
 export default class ResourceUtils {
 
     constructor(){}
     
     static getResourceFilePath(name){
-        return  path.join(__dirname + './resources', name);
+        return  path.join(__dirname + '../resources', name);
     }
 
     static getResourceDir(){
-        return __dirname + './resources';
+        return __dirname + '../resources';
     }
 }

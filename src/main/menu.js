@@ -1,6 +1,6 @@
-import ResourceUtils from './resourceutils';
+import electron from 'electron';
 
-const electron = require('electron');
+import ResourceUtils from '../utils/resourceutils';
 
 const BrowserWindow = electron.BrowserWindow;
 const Menu = electron.Menu;

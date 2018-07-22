@@ -35,7 +35,7 @@ export default class Renderer extends React.Component {
     }
 
     handleNewWindowClick() {
-        const modalPath = path.join('file://', __dirname, '../../sections/windows/modal.html')
+        const modalPath = path.join('file://', __dirname, '../html/example.html')
         let win = new BrowserWindow({ width: 400, height: 320 })
         win.on('close', function () { win = null })
         win.loadURL(modalPath)
