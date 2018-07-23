@@ -9,7 +9,11 @@ const Styles = {
         display: 'flex',
         backgroundColor: 'rgba(123, 89, 11, 0.233)',
         width: 'fit-content',
-        flexDirection: 'row',
+        flexDirection: 'col',
+        border: "5px solid black",
+        borderRadius: '5px',
+    },
+    PodcastListItem:{
         border: "1px solid black",
         borderRadius: '5px',
     }

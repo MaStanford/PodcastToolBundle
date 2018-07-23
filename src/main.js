@@ -31,8 +31,8 @@ if (isSecondInstance) {
 const createWindow = async () => {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1080,
+        height: 720,
     });
 
     windows.push(mainWindow);
